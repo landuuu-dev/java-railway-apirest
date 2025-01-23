@@ -5,7 +5,7 @@
 ### Listar todos los productos
 
 ```http
-GET http://localhost:8080/productos
+GET https://java-railway-apirest-production-8375.up.railway.app/productos
 ```
 
 **Descripción:** Recupera la lista de todos los productos disponibles.
@@ -15,7 +15,7 @@ GET http://localhost:8080/productos
 ### Obtener producto por ID
 
 ```http
-GET http://localhost:8080/productos?id=2
+GET https://java-railway-apirest-production-8375.up.railway.app/productos?id=2
 ```
 
 **Parámetros:**
@@ -30,7 +30,7 @@ GET http://localhost:8080/productos?id=2
 ### Agregar productos
 
 ```http
-POST http://localhost:8080/productos
+POST https://java-railway-apirest-production-8375.up.railway.app/productos
 ```
 
 **Cuerpo de la solicitud (JSON):**
@@ -49,7 +49,7 @@ POST http://localhost:8080/productos
 ### Actualizar producto
 
 ```http
-PUT http://localhost:8080/productos?id=2
+PUT https://java-railway-apirest-production-8375.up.railway.app/productos?id=2
 ```
 
 **Parámetros:**
@@ -73,7 +73,7 @@ PUT http://localhost:8080/productos?id=2
 ### Eliminar producto
 
 ```http
-DELETE http://localhost:8080/productos?id=2
+DELETE https://java-railway-apirest-production-8375.up.railway.app/productos?id=2
 ```
 
 **Parámetros:**
