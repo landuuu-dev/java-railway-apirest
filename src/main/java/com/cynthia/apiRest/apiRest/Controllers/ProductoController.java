@@ -13,6 +13,11 @@ public class ProductoController {
     @Autowired
     private ProductoRepository productoRepository;
 
+    @GetMapping("/")
+    public String home() {
+        return "Bienvenido a la API de productos!";
+    }
+
     @GetMapping
     public List<Producto> getAllProductos(@RequestParam(required = false) Long id) {
         if (id != null) {
